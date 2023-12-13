@@ -8,7 +8,9 @@ public class Program
         double Numbase = Convert.ToInt16(Console.ReadLine());
         double altura = Convert.ToInt16(Console.ReadLine());
         Console.WriteLine("El area del cuadrado y del rectangulo es: " + Area(Numbase, altura, false));
-
+        Console.WriteLine("Introduce el radio del circulo: ");
+        double radi = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("El area del circulo es: " + Area(radi));
         Console.WriteLine("Introduce la apotema y luego la longitud del pentagono: ");
         Numbase = Convert.ToInt16(Console.ReadLine());
         altura = Convert.ToInt16(Console.ReadLine());
@@ -25,5 +27,8 @@ public class Program
             return Base * Altura;
         }
     }
-
+    public static double Area(double Radi)
+    {
+        return Math.PI * (Radi * 2);
+    }
 }
