@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex23Defi", "Ex23Defi\Ex23Defi.csproj", "{1E3148C2-2CBB-4CB1-A157-E2CB44F66AAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex23Defi", "Ex23Defi\Ex23Defi.csproj", "{1E3148C2-2CBB-4CB1-A157-E2CB44F66AAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestingEx23", "UnitTestingEx23\UnitTestingEx23.csproj", "{E9AE73D2-FC52-493D-83F7-6393D0FAF596}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1E3148C2-2CBB-4CB1-A157-E2CB44F66AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E3148C2-2CBB-4CB1-A157-E2CB44F66AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E3148C2-2CBB-4CB1-A157-E2CB44F66AAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9AE73D2-FC52-493D-83F7-6393D0FAF596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9AE73D2-FC52-493D-83F7-6393D0FAF596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9AE73D2-FC52-493D-83F7-6393D0FAF596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9AE73D2-FC52-493D-83F7-6393D0FAF596}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
